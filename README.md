@@ -77,15 +77,15 @@ A Random Forest classifier was selected for its robustness to outliers and skewe
 
 **ROC-AUC Score: 0.894**
 
+While the ROC-AUC score reflects solid overall discriminative ability, precision and F1 scores for the churned class remain moderate despite extensive hyperparameter tuning and feature selection. This suggests the model has likely reached its performance ceiling with Random Forest on this dataset; architectures such as XGBoost or LightGBM may yield further improvements.
+
 | Metrics       | Not Churned | Churned | Accuracy |
 | ------------- | ----------- | ------- | -------- |
 | **Precision** | 0.90        | 0.66    | 0.83     |
 | **Recall**    | 0.86        | 0.73    | 0.83     |
 | **F1-Score**  | 0.88        | 0.69    | 0.83     |
 
-![Confusion Matrix](/data/results/cm.png)
-
-While the ROC-AUC score reflects solid overall discriminative ability, precision and F1 scores for the churned class remain moderate despite extensive hyperparameter tuning and feature selection. This suggests the model has likely reached its performance ceiling with Random Forest on this dataset; architectures such as XGBoost or LightGBM may yield further improvements.
+<img src="data/results/cm.png" width="600"/>
 
 That said, the model remains highly actionable: recall improved from 0.72 to 0.78 across iterations, reducing missed churners from 102 to 82. The classification threshold can also be adjusted to better align precision and recall with specific business goals and budget constraints.
 

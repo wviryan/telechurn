@@ -2,6 +2,13 @@
 
 **Summary:** This is an end-to-end data analysis portfolio project based on a telecom customer churn [dataset](https://mavenanalytics.io/data-playground/telecom-customer-churn).
 
+### TL;DR / Executive Summary
+
+* **The Problem:** The company is experiencing a high customer churn rate of **26.56%**, without a clear understanding of the drivers.
+* **The Engineering:** Built a robust, 3NF PostgreSQL database from raw transactional data to enable advanced querying and analysis.
+* **Key Insights:** Early-stage friction (first 7 months) and competitor device bundles are massive churn drivers. Specific markets, like San Diego, suffer from >65% churn due to uncompetitive pricing rather than network speed.
+* **The Solution:** Developed a Random Forest classifier (**0.89 ROC-AUC**) and an Expected Value framework to predict at-risk customers and maximize retention ROI.
+
 ## Business Problem
 
 Telecom company X suspects it is experiencing significant customer churn but has been unable to pinpoint the underlying causes. The goal of this project is to analyze the available data, identify the root causes of churn, and develop a data-driven decision-making framework to address the problem.
@@ -85,9 +92,9 @@ While the ROC-AUC score reflects solid overall discriminative ability, precision
 | **Recall**    | 0.86        | 0.73    | 0.83     |
 | **F1-Score**  | 0.88        | 0.69    | 0.83     |
 
-<img src="data/results/cm.png" width="600"/>
-
 That said, the model remains highly actionable: recall improved from 0.72 to 0.78 across iterations, reducing missed churners from 102 to 82. The classification threshold can also be adjusted to better align precision and recall with specific business goals and budget constraints.
+
+<img src="data/results/cm.png" width="600"/>
 
 ## Limitations
 

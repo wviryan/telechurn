@@ -32,9 +32,9 @@ The most common churn reasons are *Competitor had better devices* and *Competito
 
 Most churn is associated with Offer E or no offer at all (standard pricing). These are also the only offers available to customers in roughly their first six months, based on the data.
 
-![Churn by Offer](/data/graphs/by_offer.png)
+![Churn by Offer](/data/graphs/by_offers.png)
 
-![Churns by Offer (First Six Months)](/data/graphs/by_offer_in_six.png)
+![Churns by Offer (First Six Months)](/data/graphs/by_offers_in_six.png)
 
 ### Infrastructure
 

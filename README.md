@@ -24,7 +24,7 @@ The drivers of churn can be grouped into the following categories:
 
 Over 53% of new customers churn within seven months, accounting for 20% of total churn. This points to early-stage friction or a failure to communicate value effectively. The majority of customers also prefer month-to-month contracts, which increases their exposure to churn.
 
-![Churns by Tenure](/data/graphs/by_tenure.png)
+<img src="data/graphs/by_tenure.png" width="600"/>
 
 The most common churn reasons are *Competitor had better devices* and *Competitor made better offer*, suggesting that competitors bundle devices with their plans — something company X's current offers do not appear to match.
 
@@ -32,15 +32,15 @@ The most common churn reasons are *Competitor had better devices* and *Competito
 
 Most churn is associated with Offer E or no offer at all (standard pricing). These are also the only offers available to customers in roughly their first six months, based on the data.
 
-![Churn by Offer](/data/graphs/by_offers.png)
+<img src="data/graphs/by_offers.png" width="600"/>
 
-![Churns by Offer (First Six Months)](/data/graphs/by_offers_in_six.png)
+<img src="data/graphs/by_offers_in_six.png" width="600"/>
 
 ### Infrastructure
 
 Download speed-related churn is concentrated among fiber optic users, suggesting infrastructural deficiencies in this service tier.
 
-![Churns by Internet Type](/data/graphs/by_internet_type.png)
+<img src="data/graphs/by_internet_type.png" width="600"/>
 
 ### Location
 
@@ -56,7 +56,7 @@ Despite 68% fiber optic adoption in the city, speed-related complaints such as *
 
 - Price-related factors drive nearly 26% of all churn, though a full pricing analysis is not feasible without competitor data.
 
-![Churns by Category](/data/graphs/by_category.png)
+<img src="data/graphs/by_category.png" width="600"/>
 
 > **Note:** Figures in the churn categories plot may differ slightly from calculated values. See *02-dda.ipynb* for details.
 

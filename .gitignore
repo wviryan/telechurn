@@ -1,0 +1,50 @@
+# Jupyter Notebook stuff
+.ipynb_checkpoints
+.jupyter/
+nbconvert/
+runtime/
+*.ipynb-checkpoints
+
+# Environmental variables
+.env
+
+# IDE specific files
+.idea/                     # JetBrains IDEs (PyCharm, etc.)
+.vscode/                   # VS Code
+*.swp                      # vim swap files
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
